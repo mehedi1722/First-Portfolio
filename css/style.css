@@ -6,4 +6,241 @@
 
 body{
     background: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+a.btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: #e91e63;
+    border-radius: 5px;
+    padding: 12px 25px;
+}
+
+/* Basic setup  */
+
+/* navigation start here  */
+
+header {
+    min-height: 65px;
+
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo {
+    width: 25px;
+    float: left;
+}
+
+.logo a h1 {
+    font-size: 30px;
+    color: #e91e63;
+    font-family: arial;
+    line-height: 60px;
+}
+
+.menu {
+    width: 70%;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 0 20px;
+    color: #6f6f6f;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: arial;
+    display: block;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.menu ul li a:hover{
+    color: black;
+    transition: all 0.3s ease-in;
+}
+
+.menu ul {
+    float: right;
+}
+
+
+/* Banner section start here   */
+
+.Banner_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.Banner_section {
+    height: 110vh;
+    padding: 100px 0;
+    background: url("/images/background/header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner_description h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.banner_description h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: #e91e63;
+    letter-spacing: 3px;
+}
+
+.banner_image img {
+    width: 85%;
+}
+
+.banner_description p {
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+    margin: 20px 0 40px 0;
+    max-width: 90%;
+}
+
+/* Biography section start  */
+
+.About_section{
+    background-image: url("/images/background/biography-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.About_section .banner_description p{
+    max-width: 100%;
+}
+
+.About_section .banner_description{
+    width: 60%;
+    padding-top: 100px;
+}
+
+.About_section .Banner_container{
+    align-items: flex-start;
+}
+
+/* Biography section start  */
+
+/* Last works section start  */
+.section_title h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0 0 40px 0;
+}
+
+section.Latest_works {
+    padding: 100px 0;
+    background-image: url("/images/background/latest-work-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.My_works {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.My_works .Projects img {
+    width: 90%;
+}
+/* Last works section End  */
+
+
+/* Footer section  */
+
+footer{
+    background-image: url("/images/background/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.footer_section {
+    text-align: center;
+}
+
+.client{
+    margin: 40px;
+}
+.client h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.client p {
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    color: gray;
+}
+
+p.client_review {
+    margin: 30px 0;
+    color: #303448;
+    font-weight: 800;
+}
+
+.last_section {
+    background: #ff1772;
+    width: 500px;
+    padding: 40px 0;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+
+.last_section p {
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.last_section h4 {
+    font-size: 25px;
+}
+
+.copyright {
+    margin: 50px 0;
+    color: gray;
+}
+
+
+
+
+/* Finish the css  */
